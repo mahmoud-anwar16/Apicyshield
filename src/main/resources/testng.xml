@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Test Suite">
+    <test name="API Test Cases">
+        <classes>
+
+            <class name="com.test.ApiTest">
+                <methods>
+                    <include name="getUsers"/>
+                    <include name="createUser"/>
+                    <include name="updateUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
